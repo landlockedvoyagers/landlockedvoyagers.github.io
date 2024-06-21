@@ -8,19 +8,14 @@ body {
 
 header {
     background-color: #4CAF50;
+    background-image: url('logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center left;
     color: white;
     padding: 1rem 0;
     text-align: center;
     position: relative;
-}
-
-#logo {
-    width: 50px;
-    height: auto;
-    position: absolute;
-    top: 50%;
-    left: 20px;
-    transform: translateY(-50%);
 }
 
 nav ul {
@@ -101,7 +96,7 @@ footer {
     color: white;
     text-align: center;
     padding: 1rem 0;
-    position: fixed;
+    position: absolute;
     width: 100%;
     bottom: 0;
 }
