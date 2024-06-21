@@ -19,7 +19,8 @@ document.querySelectorAll('nav ul li a').forEach(anchor => {
             document.querySelector(href).scrollIntoView({
                 behavior: 'smooth'
             });
+        } else {
+            window.location.href = href;
         }
     });
 });
-
