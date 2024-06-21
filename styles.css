@@ -9,7 +9,7 @@ body {
 header {
     background-color: #43afe1;
     background-image: url('logo.png');
-    background-size: 30px 30px; /* Set the desired size */
+    background-size: 50px 50px; /* Set the desired size */
     background-repeat: no-repeat;
     background-position: center left;
     color: white;
