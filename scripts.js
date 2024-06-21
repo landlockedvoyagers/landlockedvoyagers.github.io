@@ -1,15 +1,5 @@
 // scripts.js
 
-// Existing functionality
-document.querySelectorAll('nav ul li a').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
-});
-
 // Scroll functionality to hide the footer
 window.addEventListener('scroll', function() {
     var footer = document.querySelector('footer');
@@ -18,5 +8,18 @@ window.addEventListener('scroll', function() {
     } else {
         footer.style.display = 'block';
     }
+});
+
+// Smooth scroll only for on-page anchors
+document.querySelectorAll('nav ul li a').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        const href = this.getAttribute('href');
+        if (href.startsWith('#')) {
+            e.preventDefault();
+            document.querySelector(href).scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+    });
 });
 
