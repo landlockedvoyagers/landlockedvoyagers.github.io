@@ -8,6 +8,7 @@
 </head>
 <body>
     <header>
+        <img src="logo.png" alt="Landlocked Voyagers Logo" id="logo">
         <h1>Landlocked Voyagers</h1>
         <nav>
             <ul>
@@ -23,7 +24,19 @@
         <section id="contact">
             <h2>Contact Us</h2>
             <p>If you have any questions or would like to get involved, please reach out to us!</p>
-            <!-- Include contact form here -->
+            <form action="mailto:landlockedvoyagers@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+            <p>You can also reach us via phone: 507-920-3204</p>
         </section>
     </main>
     
