@@ -1,4 +1,6 @@
 // scripts.js
+
+// Existing functionality
 document.querySelectorAll('nav ul li a').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -8,7 +10,7 @@ document.querySelectorAll('nav ul li a').forEach(anchor => {
     });
 });
 
-// scripts.js
+// Scroll functionality to hide the footer
 window.addEventListener('scroll', function() {
     var footer = document.querySelector('footer');
     if (window.scrollY > 100) {
@@ -17,3 +19,4 @@ window.addEventListener('scroll', function() {
         footer.style.display = 'block';
     }
 });
+
