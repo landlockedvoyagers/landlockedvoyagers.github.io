@@ -7,15 +7,21 @@ body {
 }
 
 header {
-    background-color: #43afe1;
     background-image: url('logo.png');
-    background-size: 50px 50px; /* Set the desired size */
+    background-size: cover; /* Stretch the image to cover the entire header */
+    background-position: center;
     background-repeat: no-repeat;
-    background-position: center left;
     color: white;
-    padding: 1rem 2rem; /* Add padding to avoid logo overlapping text */
     text-align: center;
+    padding: 2rem 0; /* Adjust padding for better spacing */
     position: relative;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 2.5rem; /* Adjust font size as needed */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add text shadow for better readability */
 }
 
 nav ul {
@@ -24,6 +30,7 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
+    background: rgba(0, 0, 0, 0.5); /* Add background to nav for better readability */
 }
 
 nav ul li {
@@ -51,7 +58,7 @@ main {
 }
 
 h2 {
-    color: #4CAF50;
+    color: #59d2cc;
 }
 
 .team-member {
@@ -81,22 +88,22 @@ form input, form textarea, form button {
 }
 
 form button {
-    background-color: #43afe1;
+    background-color: #59d2cc;
     color: white;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: #43afe1;
+    background-color: #59d2cc;
 }
 
 footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 0.5rem 0; /* Reduce padding */
-    font-size: 0.8rem; /* Reduce font size */
+    padding: 0.5rem 0;
+    font-size: 0.8rem;
     position: absolute;
     width: 100%;
     bottom: 0;
