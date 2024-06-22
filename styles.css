@@ -119,7 +119,7 @@ footer {
 }
 
 .image-button {
-    display: inline-block;
+    display: inline-flexbox;
     background-image: url('AFSPlogo.png'); /* Replace with your image URL */
     background-size: cover;
     background-position: center;
