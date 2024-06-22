@@ -10,7 +10,7 @@ header {
     background-color: #43afe1;
     background-image: url('logo.png');
     background-size: 30px 30px; /* Set the desired size */
-    background-position: center;
+    background-position: left;
     background-repeat: no-repeat;
     color: white;
     padding: 1rem 2rem; /* Add padding to avoid logo overlapping text */
