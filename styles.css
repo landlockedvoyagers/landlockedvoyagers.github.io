@@ -104,3 +104,23 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+.image-button {
+    display: inline-block;
+    background-image: url('AFSPlogo.png'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    width: 200px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    text-align: center;
+    line-height: 50px; /* Center text vertically */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline from link */
+    font-size: 16px; /* Text size */
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.2s; /* Smooth transform transition */
+}
+
+.image-button:hover {
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
