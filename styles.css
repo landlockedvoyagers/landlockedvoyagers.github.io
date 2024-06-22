@@ -138,3 +138,18 @@ footer {
 .image-button:hover {
     transform: scale(1.05); /* Slightly enlarge button on hover */
 }
+
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+}
