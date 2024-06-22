@@ -23,12 +23,15 @@
         <section id="donate">
             <h2>Donate</h2>
             <p>Support our cause by making a donation. Every contribution helps us get closer to our goal and supports the important work of the AFSP.</p>
-            <!-- PayPal donation button -->
-            <form action="https://buy.stripe.com/6oE03m1H3eBUe3eaEE" method="post" target="_top">
-                <input type="hidden" name="item_name" value="Landlocked Voyagers Donation">
-                <input type="hidden" name="currency_code" value="USD">
-                <input type="image" src="logo.png" border="0" name="submit" >
-            </form>
+            <script async
+            src="https://js.stripe.com/v3/buy-button.js">
+            </script>
+
+            <stripe-buy-button
+            buy-button-id="buy_btn_1PUbBbEsQSI7ExHnwX9LsHWd"
+            publishable-key="pk_live_51PUaroEsQSI7ExHnElVVtaDBdjAtuRV6DnB5Y6Mhn5OMGsn06mVOXYWMULtW85v3welIJ6Kj8VtumcJCtD69ho1k00XNmqjmUH"
+            >
+            </stripe-buy-button>
         </section>
     </main>
     
