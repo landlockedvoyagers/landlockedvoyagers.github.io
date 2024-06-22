@@ -7,21 +7,14 @@ body {
 }
 
 header {
-    background-image: url('logo.png');
-    background-size: cover; /* Stretch the image to cover the entire header */
+    background-color: #43afe1;
+    background-size: 50px 50px; /* Set the desired size */
     background-position: center;
     background-repeat: no-repeat;
     color: white;
+    padding: 1rem 2rem; /* Add padding to avoid logo overlapping text */
     text-align: center;
-    padding: 3rem 0; /* Adjust padding for better spacing */
     position: relative;
-}
-
-header h1 {
-    margin: 0;
-    padding: 0;
-    font-size: 2.5rem; /* Adjust font size as needed */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add text shadow for better readability */
 }
 
 nav ul {
