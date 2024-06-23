@@ -121,7 +121,7 @@ footer {
 
 .image-button {
     display: inline-block;
-    background-image: url('AFSPlogo.png'); /* Replace with your image URL */
+    background-color:#43afe1;
     background-size: cover;
     background-position: center;
     width: 500px; /* Adjust size as needed */
