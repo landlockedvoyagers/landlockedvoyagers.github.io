@@ -124,8 +124,8 @@ footer {
     background-color:#43afe1;
     background-size: cover;
     background-position: center;
-    width: 500px; /* Adjust size as needed */
-    height: 210px; /* Adjust size as needed */
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
     text-align: center;
     line-height: 50px; /* Center text vertically */
     color: white; /* Text color */
