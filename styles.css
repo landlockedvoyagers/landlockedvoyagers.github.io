@@ -26,6 +26,7 @@ header {
 }
 
 .site-title {
+    font-family: Arial, sans-serif;
     margin: auto;
     font-size: 2rem; /* Adjust font size as needed */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add text shadow for better readability */
@@ -119,7 +120,7 @@ footer {
 }
 
 .image-button {
-    display: inline-flex;
+    display: inline-block;
     background-image: url('AFSPlogo.png'); /* Replace with your image URL */
     background-size: cover;
     background-position: center;
