@@ -79,6 +79,16 @@ nav ul li a:hover {
 }
 
 .cta-button {
+    background-color: #28f3a8;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.cta-button2 {
     background-color: #FF5733;
     color: white;
     padding: 1rem 2rem;
@@ -93,6 +103,7 @@ main {
     max-width: 800px;
     margin: 2rem auto;
     background-color: white;
+    background-size: cover;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
