@@ -82,6 +82,7 @@ nav ul li a:hover {
     background-color: white;
     background-size: cover;
     background-position: center;
+    align-items: center;
     height: 50vh;
     position: relative;
 }
