@@ -127,7 +127,7 @@ footer {
     width: 100px; /* Adjust size as needed */
     height: 30px; /* Adjust size as needed */
     text-align: center;
-    line-height: 12.5px; /* Center text vertically */
+    line-height: 10px; /* Center text vertically */
     color: white; /* Text color */
     text-decoration: none; /* Remove underline from link */
     font-size: 16px; /* Text size */
