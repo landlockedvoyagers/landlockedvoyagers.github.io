@@ -3,7 +3,7 @@
 // Scroll functionality to hide the footer
 window.addEventListener('scroll', function() {
     var footer = document.querySelector('footer');
-    if (window.scrollY > 100) {
+    if (window.scrollY > 300) {
         footer.style.display = 'none';
     } else {
         footer.style.display = 'block';
