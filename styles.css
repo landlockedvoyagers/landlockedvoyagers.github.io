@@ -24,6 +24,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 2 20px;
+    flex-wrap: wrap;
 }
 
 .site-title {
@@ -38,6 +39,7 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
 }
 
 nav ul li {
