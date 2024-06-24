@@ -12,26 +12,56 @@
             <h1 class="site-title">Landlocked Voyagers</h1>
             <nav>
                 <ul>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="donate.html">Donate</a></li>
                     <li><a href="team.html">Team</a></li>
-                    <li><a href="why.html">Why</a></li>
+                    <li><a href="why.html"> Why</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Rowing Across the Pacific for a Cause</h2>
+            <a href="donate.html" class="cta-button">Donate Now</a>
+        </div>
+    </section>
+
     <main>
-        <section id="home">
+        <section id="mission">
             <h2>Our Mission</h2>
-            <p>We are rowing across the Pacific Ocean as a part of the World Toughest Row to raise awareness and funds for the American Foundation for Suicide Prevention <a href="https://afsp.org/" target="_blank">(AFSP)</a>. Join us in our journey to make a difference!</p>
+            <p>We are rowing across the Pacific Ocean to raise awareness and funds for the American Foundation for Suicide Prevention (AFSP). Join us in our journey to make a difference!</p>
+        </section>
+
+        <section id="team">
+            <h2>Meet the Team</h2>
+            <div class="team-member">
+                <img src="member1.jpg" alt="Team Member 1">
+                <h3>Team Member 1</h3>
+                <p>Bio of Team Member 1.</p>
+            </div>
+            <div class="team-member">
+                <img src="member2.jpg" alt="Team Member 2">
+                <h3>Team Member 2</h3>
+                <p>Bio of Team Member 2.</p>
+            </div>
+            <!-- Add more team members as needed -->
+        </section>
+
+        <section id="donations">
+            <h2>Support Our Cause</h2>
+            <p>Support our cause by making a donation. Every contribution helps us get closer to our goal and supports the important work of the AFSP.</p>
+            <button id="checkout-button">Donate with Stripe</button>
         </section>
     </main>
-    
+
     <footer>
         <p>&copy; 2024 Landlocked Voyagers. All rights reserved.</p>
     </footer>
 
+    <script src="https://js.stripe.com/v3/"></script>
     <script src="scripts.js"></script>
 </body>
 </html>

@@ -3,10 +3,6 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    background-image: url('team.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     color: #333;
 }
 
@@ -58,6 +54,34 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+.hero {
+    background-image: url('team.png'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.cta-button {
+    background-color: #FF5733;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 1rem;
+}
 main {
     position: absolute;
     top: 100px;
@@ -163,5 +187,9 @@ footer {
 
     nav ul li {
         margin: 0.5rem 0;
+    }
+
+    .hero {
+        height: 40vh;
     }
 }
