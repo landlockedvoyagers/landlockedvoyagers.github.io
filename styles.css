@@ -3,6 +3,10 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    background-image: url('team.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: #333;
 }
 
@@ -127,7 +131,6 @@ footer {
     width: 100px; /* Adjust size as needed */
     height: 30px; /* Adjust size as needed */
     text-align: center;
-    line-height: 10px; /* Center text vertically */
     color: white; /* Text color */
     text-decoration: none; /* Remove underline from link */
     font-size: 16px; /* Text size */
