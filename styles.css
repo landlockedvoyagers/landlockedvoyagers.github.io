@@ -194,4 +194,8 @@ footer {
     .hero {
         height: 40vh;
     }
+
+    .hero-content {
+        position: relative;
+    }
 }
