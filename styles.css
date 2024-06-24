@@ -90,6 +90,11 @@ nav ul li a:hover {
     position: relative;
 }
 
+.banner-content img{
+    width:max-content;
+    height: 100px
+}
+
 .cta-button {
     background-color: #28f3a8;
     color: white;
