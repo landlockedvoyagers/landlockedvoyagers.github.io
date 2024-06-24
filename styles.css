@@ -58,6 +58,9 @@ nav ul li a:hover {
 }
 
 main {
+    position: absolute;
+    top: 100px;
+    left: 20px;
     padding: 2rem 1rem 2rem 3rem;
     max-width: 800px;
     margin: auto;
@@ -69,11 +72,15 @@ main {
 }
 
 h2 {
-    color: #43afe1;
+    color: white;
 }
 
 h3 {
     color:white;
+}
+
+p {
+    color: white;
 }
 
 .team-member {
