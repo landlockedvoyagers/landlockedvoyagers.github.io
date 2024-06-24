@@ -4,7 +4,7 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     background-image: url('team.png');
-    background-size: cover;
+    background-size:auto;
     background-position: center;
     background-repeat: no-repeat;
     color: #333;
